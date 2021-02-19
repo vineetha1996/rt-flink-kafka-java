@@ -30,12 +30,6 @@ This project is use a simple Flink job to show how to integrate Apache Kafka to 
 
 ## Start Kafka and Create Topic
 
-``` bash
-curl -O http://www.us.apache.org/dist/kafka/0.9.0.0/kafka_2.11-0.9.0.0.tgz
-tar -xzf kafka_2.11-0.9.0.0.tgz
-cd kafka_2.11-0.9.0.0
-```
-
 Kafka uses ZooKeeper, if you do not have Zookeeper running, you can start it using the following command:
 
 ```bash
